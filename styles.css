@@ -1,0 +1,37 @@
+body{
+	background-color:gray;
+}
+.middle-container{
+	border:5px solid white;
+	margin: 0 auto;
+	width:100%;
+	max-width:960px;
+	background-color:white;
+}
+.name{
+	margin-top:50px;
+	text-align:center;
+	
+	
+}
+.foto{
+	margin:50px auto 0 auto; 
+	display:block;
+}
+p{
+	font-size:20px;
+	margin-left:20px;
+}
+ul{
+	font-size:20px;
+	margin-left:20px;
+}
+a{
+	font-size:20px;
+	margin-left:20px;
+	color:blue;
+}
+.content{
+	width: 70%;
+	margin: 0 auto 80px;
+}
