@@ -1,5 +1,5 @@
 body {
-	background-color:gray;
+	background-color:#808080;
 	font-size: 20px;
 }
 ul {
@@ -12,17 +12,18 @@ p {
 	margin-bottom: 0;
 }
 .middle-container {
-	border:5px solid white;
+	border:5px solid #fff;
 	margin: 0 auto;
 	width:100%;
-	max-width:960px;
-	background-color:white;
+	max-width:700px;
+	background-color:#fff;
+	padding: 50px 100px 50px 100px ;
 }
-.content {
+/*.content {
 	width: 70%;
 	margin: 0 auto 80px;
 	padding-left: 20px;
-}
+}*/
 .info-block {
 	border-bottom: 1px solid #000;
 	padding-bottom: 20px;
@@ -32,6 +33,6 @@ p {
 	text-align:center;	
 }
 .foto {
-	margin:50px auto 0 auto; 
+	margin:50px auto 0; 
 	display:block;
 }
