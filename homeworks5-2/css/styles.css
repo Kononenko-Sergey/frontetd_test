@@ -1,0 +1,50 @@
+body{
+	
+	background: black;
+	
+}
+table{
+	background-color: black;
+	width: 500px;
+	margin: 200px auto;
+}
+	
+tr{
+	height: 40px;
+	background-color: black;
+}
+td{
+	border: 2px solid black;
+	background-color: #fff;
+}	
+.ff{
+	width: 40px;
+}
+.dd{
+	width: 200px;
+	height: 300px;
+	background: #ff5e41;
+}	
+.ss{
+	width: 100px;
+	background-color: #fff576;
+}
+.rr{
+	height: 60px;
+}
+.yellow{
+	background-color: #fff576;
+}
+.black{
+	background: #0a1611;
+}
+.blue{
+	background: #154285;
+}
+
+/*.rF{
+	height: 60px;
+}
+.rt{
+	height: 15px;
+}
