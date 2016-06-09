@@ -12,15 +12,14 @@ body {
 	max-width: 960px;
 	background-color: #fff;	
 }
-header{
-	
-
-
+header{	
+	background-color: #074f8d;
+	text-align: right;
+	padding: 0 15px;
+	vertical-align: middle;
 }
 .navbar {
-	width: 1215px;
-	background-color: #074f8d;
-	
+	vertical-align: middle;
 }
 .nav-tab {
 	display: inline-block;
@@ -37,75 +36,65 @@ header{
 	background-color: #4eabda;
 	color: #fff
 }
-.nav-tab_flag{
+.logo-block{
+	background-color: #074f8d;
 	color: #fff;
 	text-decoration: none;
 	border-left: 2px solid #4eabda;
 	text-align: center;
+	vertical-align: middle;
+	padding: 2px 10px;
 }
+header>div{
+ display: inline-block;
+}
+
 .flag{
-	padding: 0px 5px 0px 20px;
-	
+	padding-right: 10px;
+	vertical-align: middle;	
 }
-.check_in{
+.auth-block {
 	display: inline-block;
-	padding-left: 20px;
+	padding: 8px 20px;
 	background-color:  #4eabda;
+	vertical-align: middle;
+
 }
 .img{
+	width: 100%;
 	position: relative;
 }
-.center_top{
-
-	width: 600px;
-	height: 70px;
-	position: fixed;
-	left: 50%;
-	top: 50%;
-	margin-top: -210px;
-	margin-left: -150px;
-	
-	/*position: absolute;
-	top: 250px;
-	right: 300px;*/
+.content{
+	background: url("../images/fonn.jpg") no-repeat;
+    min-height: 800px;
 }
-.center_top p{
-	color:#fff;
+.modal {
+	width: 600px;
+	height: 650px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -325px;
+	margin-left: -300px;
+}
+.modal-header {
+	background-color: rgba(0,0,0,0.7);
 	text-align: center;
-	padding-top: 12px;
-	padding-bottom: 12px;
+	color: #fff;
 	font-size: 30px;
-	/*background-color: #000000;*/
+	padding: 12px 0;	
+}
+.modal-body {
+	margin-top: 2px;
 	background-color: rgba(0,0,0,0.7);
-	
-
-
+	padding: 20px 150px;
+}
+.modal-form .input-field{
+	width: 100%;
+	display: block;
+	box-sizing: border-box;	
 }
 
-.center_bottom{
-	background-color: rgba(0,0,0,0.7);
-	width: 600px;
-	height: 550px;
-	position: fixed;
-	left: 50%;
-	top: 50%;
-	margin-top: -150px;
-	margin-left: -150px;
-	/*position: absolute;
-	top: 312px;
-	right: 300px;*/
-}
-*{
-	opacity: 1;
-}
-.center_content{
-	
-	border:1px solid red;
-	width: 300px;
-	max-width: 300px;
-	height: 470px;
-	margin: 0 auto;
-}
 .menu{
 	width: 100%;
 	height: 35px;
@@ -116,11 +105,14 @@ header{
 	font-size: 20px;
 
 }
-.facebook{
-	display: inline-block;
-	float: left;
-	padding-left: 10px;
-	vertical-align: middle
+.login-facebook{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	background: #344c88 url('../images/facebook.jpg') no-repeat;
+	box-sizing: border-box;
+	padding-left: 30px;
+	text-align: center;
 }
 .icon{
 	display: inline-block;
@@ -146,9 +138,10 @@ box-shadow: 1px -1px 20px 3px rgba(52,67,235,1);
 }	
 
 .first_name{
-	margin-top: 80px;
+	margin-top: 20px;
 }
 .checkbox{
+	margin-top: 20px;
 	height: 15px;
 	width: 20px;
 }
@@ -158,7 +151,7 @@ span{
 .account{
 	
 	height: 35px;
-	margin-top: 10px;
+	margin-top: 20px;
 	margin-left: 80px;
 	background-color: #334b87;
 }
@@ -167,6 +160,17 @@ span{
 	color:#fff;
 	font-size: 12px;
 	text-align: center;
+}
+.separation-line{
+	margin-top: 20px;
+}
+.confidentiality{
+	text-align: center;
+	color: #fff
+
+}
+p.confidentiality{
+	margin-top: 20px;
 }
 
 
