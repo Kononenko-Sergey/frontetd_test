@@ -1,7 +1,7 @@
 
 
-var a = prompt('enter a=');
-var n = prompt('enter n=');
+var a = prompt('Введите число a=');
+var n = prompt('Введите степень n=');
 
 var result = pow(a,n);
 
@@ -15,4 +15,4 @@ function pow(a, n) {
 }
 
 
-alert(result);
+console.log(result);
