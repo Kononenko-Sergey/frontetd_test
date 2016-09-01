@@ -60,7 +60,7 @@ a {
 	line-height: 17px;
 }
 .countries li a {
-	font-size: 12px;
+	font: 11px Tahoma,Arial;
 }
 .countries li img {
 	width: 80%;
@@ -74,12 +74,14 @@ a {
     display: block;
     list-style: none;
 	background: #534f4f;
+	font: 14px Tahoma,Arial;
 }
 ul:after {
     display: block;
     content: ' ';
     clear: both;
     float: none;
+
 }
 ul.menu > li {
     float: left;
@@ -102,13 +104,13 @@ ul.menu > li > a:hover {
 ul.submenu {
 	display: block;
     position: absolute;
-    padding-bottom: 10px;
+    padding:0 10px  10px 10px;
     width: 120px;
     top: 37px;
     left: 35px;
 	 display: none;
     background-color: #534f4f;
-    
+    list-style: none;
 }
 
 .arrow-top {
@@ -132,6 +134,7 @@ ul.submenu > li > a:hover {
 }
 .wrapper{
 	height: 470px;
+	font: 14px Tahoma,Arial;
 }
 .leftColumn {
 	background-color:#edeef0; 
