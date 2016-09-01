@@ -135,26 +135,33 @@ ul.submenu > li > a:hover {
 .wrapper{
 	height: 470px;
 	font: 14px Tahoma,Arial;
+	overflow: hidden;
 }
 .leftColumn {
 	background-color:#edeef0; 
 	width: 20%;
 	float: left;
-	overflow: hidden;
+	padding-bottom: 20000px;
+	margin-bottom: -20000px;
+	
 	
 
 }
 .centerColumn{
-	width: 50%;
+	width: 60%;
 	float: left;
-	overflow: hidden;
-	margin: 0 5%;
+	padding-bottom: 20000px;
+	margin-bottom: -20000px;
+	
+	
 }
 .rightColumn {
 	background-color:#edeef0; 
 	width: 20%; 
 	float: right;
-	overflow: hidden;
+	padding-bottom: 20000px;
+	margin-bottom: -20000px;
+
 }
 h3{
 	padding: 10px;
