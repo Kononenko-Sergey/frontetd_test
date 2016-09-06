@@ -9,17 +9,18 @@ body {
 
 .middle-container {
 	margin: 0px auto;
-	width: 100%;
-	max-width: 960px;
+	width: 1200px;
 	background-color: #fff;	
 }
+.content{
+	background-image: url("../images/fonn.jpg");
+    height: 950px;
+    width: 100%;
+}
 header{	
-	
-	width:1184px;;
-	max-width: 1214px;
+	width: 100%;
 	background-color: #074f8d;
 	text-align: right;
-	padding: 0 15px;
 	vertical-align: middle;
 }
 .navbar {
@@ -30,7 +31,7 @@ header{
 	color: #60b5ed;
 	text-decoration: none;
 	padding: 8px 10px;
-	font-size: 12px;
+	font: 12px Tahoma,Helvetica;
 	border-left: 1px solid  #074f8d;
 	border-right: 1px solid  #074f8d;
 }
@@ -68,25 +69,18 @@ header>div{
 	width: 100%;
 	position: relative;
 }
-.content{
-	background-image: url("../images/fonn.jpg");
-    min-height: 1000px;
-    min-width: 1214px;
 
-}
 .modal {
 	width: 564px;
 	position: relative;
-	top: 50%;
-	left: 50%;
-	margin-top: -746px;
-    margin-left: -133px;
+	margin-top: 200px;
+    margin-left: 337px;
 }
 .modal-header {
 	background-color: rgba(0,0,0,0.7);
 	text-align: center;
 	color: #fff;
-	font-size: 30px;
+	font: 30px Tahoma,Helvetica;
 	padding: 12px 0;	
 }
 .modal-body {
@@ -99,7 +93,7 @@ header>div{
 	display: block;
 	box-sizing: border-box;	
 	border: 0px;
-	font-size: 12px;
+	font: 12px Tahoma,Helvetica;
 }
 
 .menu{
@@ -109,7 +103,7 @@ header>div{
 	background-color: #334b87;
 
 	color: #fff;
-	font-size: 20px;
+	font: 20px Tahoma,Helvetica;
 
 }
 .login-facebook{
@@ -134,15 +128,15 @@ header>div{
 	display: inline-block;
 	float: right;
 	padding-right: 10px;
-
-	vertical-align: middle
+	vertical-align: middle;
+	overflow: hidden;
 }
 input{
 	width: 90%;
 	height: 35px;
 	background-color:#000;
 	color: #fff;
-	font-size: 20px;
+	font: 20px Tahoma,Helvetica;
 	padding-left: 20px;
 	margin-top: 10px;
 }
@@ -178,7 +172,7 @@ span{
 .footer{
 	width: 100%;
 	color:#fff;
-	font-size: 12px;
+	font: 120px Tahoma,Helvetica;
 	text-align: center;
 }
 .separation-line{
@@ -187,7 +181,7 @@ span{
 .confidentiality{
 	text-align: center;
 	color: #fff;
-	font-size: 10px;
+	font: 12px Tahoma,Helvetica;
 
 }
 p.confidentiality{
