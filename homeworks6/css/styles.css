@@ -1,0 +1,638 @@
+.middle-container {
+	margin: 20px auto;
+	width: 100%;
+	max-width: 908px;
+	
+
+}
+header{
+	display: inline-block;
+}
+.logo-block{
+	display: inline-block;
+	
+}
+.phone_icon{
+	line-height: 16px;
+	vertical-align: middle;
+	margin-top: 11px;
+	margin-left: 6px;
+}	
+.logo-block span{
+	display: inline-block;
+	font: 18px Arial, Helvetica, sans-serif;
+	letter-spacing: .5px;
+	color: #5e696d;
+	
+	vertical-align: middle;
+	margin-top: 9px;
+}
+.loginbox{
+	display: inline-block;
+	width: 495px;
+	height: 26px;
+	background-color: #1e6383;
+	border-radius: 4px;
+	vertical-align: middle;
+	line-height: 20px;
+
+	margin-left: 10px;
+	margin-top: 6px;
+}
+.login_icon{
+	vertical-align: middle;
+	padding:0px 0px 0 8px;
+}
+.first_name{
+	height: 11px;
+	width: 111px;
+	
+}
+.password{
+	height: 11px;
+	width: 111px;
+	
+}
+
+.submit{
+	
+	background: #1e6383;
+	padding: 0 3px 0 4px;
+	color: #fff;
+	font-size: 12px;
+}
+.button{
+	
+	background-color: #1e6383;
+	border-left: 2px solid #fff;
+	padding-left: 4px;
+	color: #fff;
+	font-size: 12px;
+}
+.help{
+	
+	color: #9da8af;
+	padding-left: 20px;
+	font-size: 12px;
+	letter-spacing: .8px;
+	line-height: 20px;
+}
+.min-menu{
+	display:inline-block;
+	padding-left: 12px;
+	line-height: 20px;
+	vertical-align: middle;
+}
+.mini-menu{
+	
+}
+.fon{
+	margin-top: 10px;
+}
+.main-menu-center{
+	background: #111216;
+	height: 34px;
+	border-radius: 5px;
+	
+}
+.navbar {
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 147px;
+	letter-spacing: .1px;
+
+}
+.nav-tab {
+
+	display: inline-block;
+	color: #b1bcc0;
+	text-decoration: none;
+	background-color:#1b1d20;
+	font: 14px/19px Arial, Helvetica, sans-serif;
+
+	border-radius: 5px;
+	
+
+}
+.nav-tab:hover {
+	border-left: 1px solid  #4eabda;
+	border-right: 1px solid  #4eabda;
+	background-color: #4eabda;
+	color: #fff
+}
+.nav-tab2 {
+
+	display: inline-block;
+	color: #b1bcc0;
+	text-decoration: none;
+	background-color:#1b1d20;
+	font: 14px/19px Arial, Helvetica, sans-serif;
+	margin-left: 30px;
+	border-radius: 5px;
+	
+
+}
+.nav-tab2:hover {
+	border-left: 1px solid  #4eabda;
+	border-right: 1px solid  #4eabda;
+	background-color: #4eabda;
+	color: #fff
+}
+.nav-tab3 {
+
+	display: inline-block;
+	color: #b1bcc0;
+	text-decoration: none;
+	background-color:#1b1d20;
+	font: 14px/19px Arial, Helvetica, sans-serif;
+	margin-left: 26px;
+	border-radius: 5px;
+	
+
+}
+.nav-tab3:hover {
+	border-left: 1px solid  #4eabda;
+	border-right: 1px solid  #4eabda;
+	background-color: #4eabda;
+	color: #fff
+}
+.nav-tab4 {
+
+	display: inline-block;
+	color: #b1bcc0;
+	text-decoration: none;
+	background-color:#1b1d20;
+	font: 14px/19px Arial, Helvetica, sans-serif;
+	margin-left: 26px;
+	border-radius: 5px;
+	
+
+}
+.nav-tab4:hover {
+	border-left: 1px solid  #4eabda;
+	border-right: 1px solid  #4eabda;
+	background-color: #4eabda;
+	color: #fff
+}
+.nav-tab5 {
+
+	display: inline-block;
+	color: #b1bcc0;
+	text-decoration: none;
+	background-color:#1b1d20;
+	font: 14px/19px Arial, Helvetica, sans-serif;
+	margin-left: 20px;
+	border-radius: 5px;
+	
+
+}
+.nav-tab5:hover {
+	border-left: 1px solid  #4eabda;
+	border-right: 1px solid  #4eabda;
+	background-color: #4eabda;
+	color: #fff
+}
+
+.case{
+	display: inline-block;
+	margin-top: 5px;
+	float: right;
+	margin-right: 14px;
+	width: 216px;
+	height: 20px;
+	background-color:#111216;
+	font-size: 12px;
+	vertical-align: middle;
+	color: #b1bcc0;
+
+}
+.bascet{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	text-align: center;
+}
+.purchases1{
+	display: inline-block;
+	text-align: center;
+	padding-left: 7px;
+	line-height: 24px;
+	letter-spacing: .3px;
+	
+}
+.figures1{
+	display: inline-block;
+	color: #0d5a8f;
+	text-align: center;
+	letter-spacing: .3px;
+
+}
+.purchases2{
+	display: inline-block;
+	text-align: center;
+	padding-left: 10px;
+	line-height: 24px;
+	letter-spacing: .3px;
+	
+}
+.figures2{
+	display: inline-block;
+	color: #0d5a8f;
+	text-align: center;
+	letter-spacing: .3px;
+	padding-left: 12px;
+
+}
+.sidebar-left{
+	margin-top: 163px;
+	display: inline-block;
+	float: left;
+	overflow: hidden;
+	
+	width: 180px;
+}
+.side-menu{
+	border: 1px solid #949fa4;
+	border-radius: 12px;
+	font-size: 12px;
+	vertical-align: middle;
+	text-align: center;
+	padding-top: 5px;
+}
+.side-menu-icon{
+	display: inline-block;
+	padding: px 0px px 0px;
+	vertical-align: middle;
+}
+.catalog{
+	line-height: 23px;
+	
+	letter-spacing: .6px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.side-menu-shin{
+	border: 1px solid #949fa4;
+	border-radius: 12px;
+	margin-top: 10px;
+	width: 150px;
+
+}
+.tires{
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 31px;
+	font-size: 14px;
+}
+.circle{
+	padding: 1px 0px 1px 2px;
+	vertical-align: middle;
+}
+.box1{
+	margin-top: 0px;
+	font-size: 12px;
+	padding-left: 47px;
+	letter-spacing: .6px;
+}
+ul.box1{
+	margin-bottom: 0px;
+}
+
+li {
+	list-style-type: circle;
+	color: #465961;
+	font-family: "Lucida Sans Unicode", Verdana, Arial;
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+li:hover{
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: underline;
+	color: #0c3256 ;
+}
+.side-menu-shin2{
+	border: 1px solid #949fa4;
+	border-radius: 12px;
+	margin-top: 0px;
+	width: 150px;
+}
+.wheels{
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: 14px;
+	letter-spacing: .6px;
+	
+}
+.sidebar-right{
+	margin-top: 163px;
+	display: inline-block;
+	float: right;
+	overflow: hidden;
+	
+	width: 183px;
+}
+.box2 li{
+	list-style-type: none;
+}
+.form{
+	margin-right: 20px;
+}
+.side-menu-shin-right{
+	border: 1px solid #949fa4;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-left: 20px;
+	width: 150px;
+}
+.content{
+	background: linear-gradient(to top, #94a7b0, #e4e6e8);
+	border-radius: 10px;
+	width: 525px;
+	overflow: hidden;
+	margin: 163px 9px;
+	display: inline-block;
+}
+.boxs-1, .boxs-2, .boxs-3 {
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 13px;
+    border-radius: 6px;
+    
+}
+.st_line {
+    position: relative;
+    overflow: hidden;
+}
+.goodyear, .nokian, .hankook {
+    display: inline-block;
+        box-sizing: border-box;
+        margin-top: 9px;
+        margin-bottom: 6px;
+        margin-left: 24px;
+}
+.goodyear a, .nokian a, .hankook a {
+	display: block;
+    text-decoration: none;
+}
+.goodyear a img, .nokian a img, .hankook a img {
+	display: block;
+    margin-top: -2px;
+    margin-left: -2px;
+    text-align: center;
+}
+.model-goodyear, .model-nokian, .model-hankook {
+	display: block;
+    font-family: 'lucida_sans_unicoderegular';
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 1px;
+    margin-bottom: -10px;
+    margin-left: 33px;
+    color: #206989;
+    display: block;
+}
+.name-goodyear, .name-nokian, .name-hankoo {
+	display: block;
+    font-family: 'lucida_sans_unicoderegular';
+        font-size: 12px;
+        margin-top: 2px;
+        margin-left: 13px;
+        letter-spacing: .4px;
+        color: #000;
+        
+}
+.price-goodyear, .price-nokian, .price-hankook {
+	display: block;
+    font-family: Arial;
+    font-size: 17px;
+    font-weight: bold;
+    font-style: italic;
+    padding-left: 37px;
+    color: #114366;
+}
+/*.cost_of_tire_grn, .cost_of_tire_grn2, .cost_of_tire_grn3 {
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: italic;
+    padding-left: 2px;
+    letter-spacing: .5px;
+    color: #114366;
+}*/
+
+/.model-hankook{
+    margin-left: 45px;
+        margin-top: 0;
+}
+/*.goodyear{
+	margin-top: 12px;
+	width: 136px;
+	height: 128px;
+	margin-left: 25px;
+	display: inline-block;
+}
+.model-goodyear{
+	display: block;
+	color: #206988;
+    font-weight: bold;
+    letter-spacing: .2px;
+    font-size: 14px;
+    font-family: "Lucida Sans Unicode", Verdana, sans-serif;
+    line-height: 20px;
+    text-align: center;
+}
+.name-goodyear{
+	display: block;
+	letter-spacing: .2px;
+	font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 12px;
+    */
+   /* line-height: 12px;
+    padding-left: 6px;
+    font-weight: bold;
+	text-align: center;
+}
+.nofollow-goodyear{
+	border-radius: 10px;
+    background: #fff;
+    text-align: center;
+    width: 136px;
+    padding-top: 10px;
+
+}
+.price-goodyear{
+	color: #206988;
+    font-weight: bold;
+    letter-spacing: .2px;
+    padding-left: 12px;
+    font-size: 14px;
+    font-family: "Lucida Sans Unicode", Verdana, Arial;
+   	display: block;
+	text-align: center;
+}
+.nokian{
+	display: block;
+	margin-top: 7px;
+    width: 136px;
+    height: 128px;
+    margin-left: 32px;
+	display: inline-block;
+}
+
+.model-nokian{
+	color: #206988;
+    font-weight: bold;
+    letter-spacing: 0.7px;
+    font-size: 14px;
+    font-family: Arial;
+    line-height: 24px;
+    display: block;
+    text-align: center;
+    padding-top: 2px;
+    padding-left: 6px;
+}
+
+.name-nokian{
+	font-family: "Lucida Sans Unicode";
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: bold;
+    margin-left: -10px;
+    padding-left: 13px;
+}
+.nofollow-nokian{
+	border-radius: 10px;
+    background: #fff;
+    text-align: center;
+    width: 136px;
+
+
+}
+.price-nokian{
+	color: #206988;
+    font-weight: bold;
+    letter-spacing: .2px;
+    padding-left: 12px;
+    font-size: 14px;
+    font-family: "Lucida Sans Unicode", Verdana, Arial;
+    
+    line-height: 19px;
+    display: block;
+	text-align: center;
+}
+.nokian span{
+	display: block;
+	text-align: center;
+}
+.hankook{
+	margin-top: -2px;
+    width: 136px;
+    height: 128px;
+    margin-left: 32px;
+    display: block;
+	display: inline-block;
+}
+.model-hankook{
+	color: #206988;
+    font-weight: bold;
+    letter-spacing: 0.7px;
+    font-size: 15px;
+    font-family: Arial;
+    margin-left: 12px;
+    line-height: 50px;
+    display: block;
+    text-align: center;
+}
+
+.name-hankook{
+	font-family: "Lucida Sans Unicode";
+    font-size: 12px;
+    line-height: 12px;
+    padding-left: 10px;
+    font-weight: bold;
+    margin-top: -17px;
+    margin-left: 0px;
+    display: block;
+}
+.nofollow-hankook{
+	border-radius: 10px;
+    background: #fff;
+    text-align: center;
+    width: 136px;
+    margin: 5px auto;
+
+}
+.price-hankook{
+	color: #206988;
+    font-weight: bold;
+    letter-spacing: .2px;
+    padding-left: 12px;
+    font-size: 14px;
+    font-family: "Lucida Sans Unicode", Verdana, Arial;
+    font-style: italic;
+    line-height: 19px;
+    display: block;
+	text-align: center;
+}
+
+.nokian span{
+	display: block;
+	text-align: center;
+}
+.model{
+	color: #206988;
+    font-weight: bold;
+    letter-spacing: .2px;
+    padding-left: 4px;
+    font-size: 14px;
+    font-family: "Lucida Sans Unicode", Verdana, Arial;
+    font-style: italic;
+    line-height: 19px;
+}
+.name{
+	font-family: "Lucida Sans Unicode";
+    font-size: 12px;
+    line-height: 12px;
+    padding-left: 10px;
+    font-weight: bold;}
+.price{
+	    color: #206988;
+    font-weight: bold;
+    letter-spacing: .2px;
+    padding-left: 12px;
+    font-size: 14px;
+    font-family: "Lucida Sans Unicode", Verdana, Arial;
+    font-style: italic;
+    line-height: 19px;
+}
+.sponsors {
+	text-align: center;
+}
+
+
+
+
+footer{
+	width: 908px;
+	
+	height: 70px;
+	background-color: #213a4d;
+}
+footer li{
+	 list-style-type: none;
+	 display: inline-block;
+	 margin: 10px auto;
+}
+footer ul{
+	text-align: center;
+}
+footer a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 10px;
+
+}
+footer p{
+	font-size: 10px;
+	color: #7f4740;
+	text-align: center;
+}

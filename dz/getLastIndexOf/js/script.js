@@ -1,7 +1,7 @@
-var arr = [3, 5, 3, 2];
+var arr = [3, 5, 5, 2];
 
-function getLastIndexOf(array, element) {
-	for (var i = array.length - 1; i >= 0; i--) {
+function getLastIndexOf(array, element, number) {
+	for (var i = array.length - number; i >= 0; i--) {
 		if (array[i] === element){
 			return i;
 		} 
@@ -9,5 +9,5 @@ function getLastIndexOf(array, element) {
 	return -1; 
 }
 
-getLastIndexOf(arr, 5);
+getLastIndexOf(arr, 5, 3);
 

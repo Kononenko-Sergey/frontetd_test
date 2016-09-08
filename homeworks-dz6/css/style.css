@@ -1,0 +1,188 @@
+html, body {
+    height: 100%;
+}
+#wrapper {
+    font-family: Arial, Tahoma, sans-serif;
+    font-size: 11px;
+    position: relative;
+    display: table;
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+}
+.content {
+    display: table-row;
+    height: 100%;
+}
+
+main {
+    position: relative;
+    overflow: hidden;
+}
+.block1, .block3 {
+    float: left;
+    box-sizing: border-box;
+    width: 23.5%;
+    margin-top: 4px;
+}
+
+/*НАСТРОЙКИ В BLOCK1 для КАТАЛОГ ПРОДУКЦИИ!*/
+
+
+
+/*НАСТРОЙКИ ДЛЯ BLOCK2*/
+
+.block2 {
+    float: left;
+    box-sizing: border-box;
+    width: 52.5%;
+    margin-top: 13px;
+    border-radius: 6px;
+    background: #e6e7e9;
+    background: -moz-linear-gradient(top, #e6e7e9 0%, #93a7b0 100%);
+    background: -webkit-linear-gradient(top, #e6e7e9 0%, #93a7b0 100%);
+    background: linear-gradient(to bottom, #e6e7e9 0%, #93a7b0 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#e6e7e9', endColorstr='#93a7b0', GradientType=0);
+}
+
+/*ШИНЫ Goodyear первый столбик*/
+
+.first-column, .second-column, .third-column {
+    float: left;
+        box-sizing: border-box;
+        margin-top: 9px;
+        margin-bottom: 6px;
+        margin-left: 24px;
+}
+.first-column a, .second-column a, .third-column a {
+    text-decoration: none;
+}
+.first-column a img, .second-column a img, .third-column a img {
+    margin-top: -2px;
+    margin-left: -2px;
+    text-align: center;
+}
+.tire_tittle, .tire_tittle2, .tire_tittle3 {
+    font-family: 'lucida_sans_unicoderegular';
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 1px;
+    margin-bottom: -10px;
+    margin-left: 33px;
+    color: #206989;
+    display: block;
+}
+.tire_model, .tire_model2, .tire_model3 {
+    font-family: 'lucida_sans_unicoderegular';
+        font-size: 12px;
+        margin-top: 2px;
+        margin-left: 13px;
+        letter-spacing: .4px;
+        color: #000;
+        display: block;
+}
+.cost_of_tire_value, .cost_of_tire_value2, .cost_of_tire_value3 {
+    font-family: Arial;
+    font-size: 17px;
+    font-weight: bold;
+    font-style: italic;
+    padding-left: 37px;
+    color: #114366;
+}
+.cost_of_tire_grn, .cost_of_tire_grn2, .cost_of_tire_grn3 {
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: italic;
+    padding-left: 2px;
+    letter-spacing: .5px;
+    color: #114366;
+}
+
+.tire_tittle3{
+    margin-left: 45px;
+        margin-top: 0;
+}
+
+/*Колесо GoodYear 3 столбец 1 кривой - настр*/
+
+.tire_tittle_different {
+    margin-top: 1px;
+    margin-left: 32px;
+}
+.tire_model_different {
+    margin-left: 12px;
+    letter-spacing: 0.4px;
+}
+
+/*ШИНЫ Nokian 2 столбик*/
+
+.second-column {
+    margin-top: 9px;
+    margin-left: 21px;
+}
+
+.second-column a img {
+    margin: -2px 0 1px 4px;
+}
+.tire_tittle2 {
+    margin-left: 50px;
+}
+.tire_model2 {
+    margin-left: 29px;
+        margin-top: 1px;
+        letter-spacing: 0.4px;
+}
+.cost_of_tire_value2 {
+    padding-left: 38px;
+    letter-spacing: .1px;
+}
+.cost_of_tire_grn2 {
+    padding-left: 5px;
+}
+
+/*ШИНЫ Hankook 3 столбик*/
+
+.third-column {
+    margin-top: 11px;
+    margin-left: 21px;
+}
+.third-column a img {
+    margin: -3px 0 0 5px;
+}
+.name_of_tire3 {
+    margin-bottom: -9px;
+    margin-left: 45px;
+}
+.tire_model3 {
+    margin-left: 16px;
+    letter-spacing: .6px;
+}
+.cost_of_tire_value3 {
+    padding-left: 38px;
+    letter-spacing: .1px;
+}
+.cost_of_tire_grn3 {
+    padding-left: 4px;
+    color: #114366;
+}
+.st_line {
+    position: relative;
+    overflow: hidden;
+}
+.nd_line {
+    position: relative;
+    overflow: hidden;
+}
+.rd_line {
+    position: relative;
+        overflow: hidden;
+        margin-bottom: 20px;
+        margin-top: 5px;
+}
+.clearfix {
+    display: block;
+    visibility: hidden;
+    clear: both;
+    content: '';
+}

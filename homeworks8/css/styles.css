@@ -1,0 +1,30 @@
+
+@media (max-width:4790px) {
+	.header{
+		background: url();
+		background-position:top center;
+	}
+	.wrapper{
+		width: 320px;
+		margin: auto;
+	}
+	.menu_item{
+		display: none;
+	}
+	.menu_item--curr{
+		display: block;
+	}
+	.menu:hover .menu_item{
+		display: block;
+	}
+}
+@media (min-width:479px) and (max-width:7670px){
+	.wrapper{
+		width: 480px;
+		margin: auto;
+	}
+	.menu_item{
+		float: left;
+	}
+}
+
