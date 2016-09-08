@@ -16,8 +16,7 @@ header{
 	margin: 10px 0 0 30px;
 }
 .navigation{
-	margin: 20px 0 0 50px;
-	padding-bottom: 10px;
+	padding: 20px 0 10px 50px;
 	text-decoration: none;
 	color: #000000;
 }
@@ -30,15 +29,16 @@ header{
 	font-size: 25px;
 	color: #000000;
 	text-decoration: none;
+}
 
+.boxs-navigation:hover{
+	color: #fff;
 }
 .bike{
 	width: 150px;
 }
 .sidbar-left{
 	margin-top: 10px;
-	background: #647a90;
-	padding: 20px 0 20px 60px;
 }
 .sidbar-left button{
 	background: #647a90;
@@ -56,38 +56,50 @@ button.accordion {
 }
 
 button.accordion.active, button.accordion:hover {
-    background-color: #ddd;
+    background-color: #69e0cc;
 }
 
 div.panel {
     padding: 0 18px;
     display: none;
-    background-color: white;
+    background-color: #56b3a3;
 }
 
 div.panel.show {
     display: block;
 }
+li{
+	list-style: none;
+	padding: 10px 0;
+}
+div.panel li a {
+	color: #fff;
+}
+div.panel li a:hover {
+	color: #acee8e;
+}
 .sidbar-right{
 	background: #3c444c;
-	padding: 20px 0 20px 60px;
 }
 .sidbar-right button{
 	background: #3c444c;
 }
-.content-buttom{
+.wrapper-bottom{
 	background: #4c444c
 }
 .menu{
 	padding: 30px 0 30px;
 }
-.buttom-navigation{
+.extra-nav{
 	display: block;
 	text-align: center;
 	color: #fff;
 	text-decoration: none;
 	padding: 5px 0 5px;
 	font-size: 25px;
+}
+.extra-nav:hover{
+	color: #faa;
 }
 footer{
 	margin-top: 5px;
@@ -178,9 +190,10 @@ footer span{
 	width: 100%;
 	text-align: center;
 	}
-	.buttom-navigation{
+	.extra-nav{
 		display: inline-block;
 		font-size: 20px;
+		margin: 0 10px;
 	}
 
 }
