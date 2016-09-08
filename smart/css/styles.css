@@ -55,7 +55,7 @@ button.accordion {
     transition: 0.4s;
 }
 
-button.accordion.active, button.accordion:hover {
+ button.accordion:hover {
     background-color: #69e0cc;
 }
 
