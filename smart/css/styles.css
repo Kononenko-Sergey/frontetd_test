@@ -223,6 +223,10 @@ footer span{
 	.sidbar-left{
 		width: 20%;
 		float: left;
+		margin-left: 0px;
+	}
+	div.panel{
+		margin-left: 0px;
 	}
 	.sidbar-right{
 		width: 20%;
@@ -231,5 +235,6 @@ footer span{
 	.bike{
 		display: block;
 		float: right;
+		width: 300px;
 	}
 }	
