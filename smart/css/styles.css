@@ -4,7 +4,6 @@
 }
 .middle-conteiner{
     width: 100%;
-    padding: 0 10px;
     box-sizing: border-box;
 }
 header{
@@ -55,10 +54,6 @@ button.accordion {
     transition: 0.4s;
 }
 
- button.accordion:hover {
-    background-color: #69e0cc;
-}
-
 div.panel {
     padding: 0 18px;
     display: none;
@@ -84,7 +79,7 @@ div.panel li a:hover {
 .sidbar-right button{
 	background: #3c444c;
 }
-.wrapper-bottom{
+.footer-navigation{
 	background: #4c444c
 }
 .menu{
@@ -102,7 +97,7 @@ div.panel li a:hover {
 	color: #faa;
 }
 footer{
-	margin-top: 5px;
+	margin-top: 10px;
 	background: #856a85;
 }
 footer p{
@@ -174,7 +169,6 @@ footer span{
 	    display: block;
 	    background-color: #647a90;
 	    color: #fff;
-	    margin-left: 20px;
 	}
 	.sidbar-right{
 		width: 50%;
@@ -194,6 +188,12 @@ footer span{
 		display: inline-block;
 		font-size: 20px;
 		margin: 0 10px;
+	}
+	footer{
+		position: absolute;
+    	left: 0; bottom: 0; 
+    	width: 100%;
+    	overflow: hidden;
 	}
 
 }
@@ -236,5 +236,9 @@ footer span{
 		display: block;
 		float: right;
 		width: 300px;
+	}
+	footer{
+		position: static; 
+    	width: 100%;
 	}
 }	
