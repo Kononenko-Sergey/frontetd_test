@@ -59,6 +59,9 @@ div.panel {
     display: none;
     background-color: #56b3a3;
 }
+.accordion.active{
+	background: #56b3a3;
+}
 
 div.panel.show {
     display: block;
