@@ -193,7 +193,7 @@ footer span{
 		margin: 0 10px;
 	}
 	footer{
-		position: absolute;
+		position: static;
     	left: 0; bottom: 0; 
     	width: 100%;
     	overflow: hidden;
@@ -225,15 +225,23 @@ footer span{
 	}
 	.sidbar-left{
 		width: 20%;
+		height: 80%;
 		float: left;
 		margin-left: 0px;
+		position: absolute;
+    	top: 70px;
+    	background: #647a90;
 	}
 	div.panel{
 		margin-left: 0px;
 	}
 	.sidbar-right{
 		width: 20%;
+		height: 80%;
 		float: right;
+		position: absolute;
+    	top: 70px;
+    	right: 0px;
 	}
 	.bike{
 		display: block;
@@ -241,7 +249,7 @@ footer span{
 		width: 300px;
 	}
 	footer{
-		position: static; 
+		position: absolute; 
     	width: 100%;
 	}
 }	
